@@ -1,12 +1,13 @@
 ## This repo contains sample code of a taxi booking web app. 
 ### Runs on Java EE 6 with Glasshfish 4 Server on NetBeans 8.1. Tested and working. 
+### Read below on how to get these files + run them.
 
-### Contents: 
-1. A client application
-2. An enterprise application (containing 1 EJB module & 1 WAR module)
-3. A remote interface class for the beans in the above app to call. 
+### Files Uploaded: 
+1. A client application (TaxiBookingSystemClient)
+2. An enterprise application (TaxiBookingSystemServer) (containing 1 EJB module & 1 WAR module)
+3. A remote interface class for the beans in the above app to call (TaxiBookingSystemServerRemoteInterfaces) 
 
-### How To Start: 
+### How To Start using Git: 
 1. Create GitHub account.
 2. Fork this repo (top right button) into your account. So now you have an exact copy of the group repo in your personal online repo. 
 3. Download your preferred Git desktop client. I recommend [GitKraken](https://www.gitkraken.com/download). 
@@ -18,8 +19,7 @@
 1. This offline location you have selected to clone your remote repo to is called your "local repo". The repo you just cloned from your account on GitHub is your "remote repo". Lastly, the repo which you have forked from in step 2 of "How To Start" is the "group's remote repo". Let's call it group repo for short. Group's repo = our source code for the whole project. 
 2. Now, ANY changes to ANY files in your local repo (create, update, delete), will be automatically detected and shown on GitKraken. 
 
-### Two Basic Process 
-
+### Two Basic Processes 
 #### I want to push some updates in my code to the project code:
 1. Commit changes to local repo. Now, local repo has been updated with the changes.
 2. Push local repo to remote repo. Now, your online files on GitHub have been updated with the changes. Can think of it like overwriting your online drive, but this overwriting can be reversed to any point in the project if the code you've submitted online is buggy (see Revert Changes section below).
@@ -30,10 +30,10 @@
 1. Rebase your local repo with group repo. (updates local files with group's files)
 2. Push changes in local repo to remote repo. (updates online files with local files)
 
-### Revert Changes
+### Reverting Changes
 1. Through reset commit function in GitKraken. Repo can be reset to a point before a certain commit was done.
 
-## Running Sample Code
+## Running Sample NetBeans Code
 1. Install glassfish server 4 (not 4.1 or 4.1.1) 
 2. Start the server, and open admin console in browser by right clicking server.
 3. Create JDBC connection pool called PickMe (follow textbook instructions).

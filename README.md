@@ -7,16 +7,16 @@
 2. An enterprise application (TaxiBookingSystemServer) (containing 1 EJB module & 1 WAR module)
 3. A remote interface class for the beans in the above app to call (TaxiBookingSystemServerRemoteInterfaces) 
 
-### How To Start using Git: 
+### How To Start using Git:
 1. Create GitHub account.
 2. Fork this repo (top right button) into your account. So now you have an exact copy of the group repo in your personal online repo. 
 3. Download your preferred Git desktop client. I recommend [GitKraken](https://www.gitkraken.com/download). 
-4. Go back to the "practice-repo" in your personal account. 
+4. Go back to the "practice-repo" in your **_personal account_** (not the group's one). 
 5. Get the clone URL.
 6. Clone this repository on GitKraken. Cloning just means that now you are "downloading" your online files into an offline location. Choose a folder in your PC to store these files. 
 
 ### What Now? 
-1. This offline location you have selected to clone your remote repo to is called your "local repo". The repo you just cloned from your account on GitHub is your "remote repo". Lastly, the repo which you have forked from in step 2 of "How To Start" is the "group's remote repo". Let's call it group repo for short. Group's repo = our source code for the whole project. 
+1. This offline location you have selected to download your online files into is called your **_local repo_**. The repo you just cloned from your account on GitHub is your **_remote repo_**. Lastly, the repo which you have forked from in step 2 of "How To Start". is the **_group's remote repo_**. Let's call it **_group repo_** for short. **Group's repo = our source code for the whole project.** 
 2. Now, ANY changes to ANY files in your local repo (create, update, delete), will be automatically detected and shown on GitKraken. 
 
 ### Two Basic Processes 

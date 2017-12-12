@@ -20,13 +20,13 @@
 
 ### Two Basic Process 
 
-⋅⋅* I want to push some updates in my code to the project code:
+#### I want to push some updates in my code to the project code:
 1. Commit changes to local repo. Now, local repo has been updated with the changes.
 2. Push local repo to remote repo. Now, your online files on GitHub have been updated with the changes. Can think of it like overwriting your online drive, but this overwriting can be reversed to any point in the project if the code you've submitted online is buggy (see Revert Changes section below).
 3. Submit pull request to the group repo. This is a request for the group to review your code and merge your code with the group's codebase once it is verified to be ok (i.e Ask the group to pull your changes).
 4. Pull request approved, changes from you are now included in the main codebase. 
 
-⋅⋅* I want to update my code with the latest project code:
+#### I want to update my code with the latest project code:
 1. Rebase your local repo with group repo. (updates local files with group's files)
 2. Push changes in local repo to remote repo. (updates online files with local files)
 

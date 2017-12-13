@@ -1,5 +1,5 @@
 ## This repo contains sample code of a taxi booking web app. 
-### Runs on Java EE 6 with Glasshfish 4 Server on NetBeans 8.1. Tested and working. 
+### Runs on Java EE 6 with Glasshfish 4 Server, with JDK 1.8 on NetBeans 8.1. Tested and working. 
 ### Read below on how to get these files + run them.
 
 ### Files Uploaded: 
